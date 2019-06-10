@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+	<title>Page Title</title>
+	<link rel="stylesheet" href="assets/css/main.css"/>
+<body>
+	<h1>Quiz: NATO Call Words</h1>
+
+	<main>
+		<div ng-app="myApp" ng-controller="myCtrl">
+
+			<section>
+				<h2 class="bordered">Question</h2>
+				<h3>{{question}}</h3>
+			</section>
+
+			<section>
+				<h2 id="answer-banner" class="bordered">Answer</h2>
+				<section class="input">
+					<input id="answer-input" type="text" ng-model="answer" ng-keypress="checkAnswer($event)"><br>
+					<input id="answer-submit" type="button" value="Submit" ng-click="checkAnswer()"><br>
+				</section>
+			</section>
+
+			<h1 id="result-icon">&#x2713;</h1>
+
+			<section id="help-table-container">
+				<input id="help-btn" type="button" value="Show Help" ng-model="helpBtn" ng-click="toggleHelpTable()"><br>
+
+				<table id="help-table">
+					<tr>
+						<th><h2>Question</h2></th>
+						<th><h2>Answer</h2></th>
+					</tr>
+
+					<tr ng-repeat="x in data">
+						<td>{{ x.q }}</td>
+						<td>{{ x.a }}</td>
+					</tr>
+				</table>
+			</section>
+		</div>
+	</main>
+
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/angular-1.7.8.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
+
