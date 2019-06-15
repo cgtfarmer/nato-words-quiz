@@ -18,7 +18,8 @@
 			<section>
 				<h2 id="answer-banner" class="bordered">Answer</h2>
 				<section class="input">
-					<input id="answer-input" type="text" ng-model="answer" ng-keypress="checkAnswer($event)"><br>
+					<input id="answer-input" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" ng-model="answer" ng-keypress="checkAnswer($event)"><br>
+
 					<input id="answer-submit" type="button" value="Submit" ng-click="checkAnswer()"><br>
 				</section>
 			</section>
