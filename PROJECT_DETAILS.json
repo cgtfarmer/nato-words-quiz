@@ -1,0 +1,31 @@
+{
+	"title" : "NATO Phonetic Alphabet Quiz", 
+	"date" : "2019-06", 
+	"revenue" : "No", 
+	"status" : "Complete", 
+	"summary" : "The purpose of this web application is to provide an efficient method of practicing/memorizing the NATO phonetic alphabet",
+	"description" : "A Bash script converts the CSV question-answer data to a JSON file. Using AngularJS' http service, a JSON file is asynchronously loaded and it populates the help table at the bottom and is fed through a question randomizer. Using CSS media queries for responsiveness", 
+	"future-work" : [
+						""
+				    ],
+	"live-link" : "http://info.christianfarmer.org/nato-words/quiz", 
+	"demonstration-link" : "Contact me", 
+	"repository-link" : "Contact me", 
+	"supported-platforms" : ["Windows", "MacOS", "Linux", "Android", "iOS"],
+	"supported-browsers" : ["Mozilla Firefox", "Safari"], 
+	"version-control" : "Git", 
+	"development-methods" : "None", 
+	"team-size" : "1", 
+	"lines-of-code" : "253", 
+	"user-interface" : "Web", 
+	"keywords" : ["Education", "Web Application", "UI/UX", "Games"], 
+	"languages" : ["HTML", "CSS", "JavaScript", "JSON"],
+	"libraries" : [
+					"JavaScript: jQuery, AngularJS"
+				  ],
+	"external-programs" : "None", 
+	"development-os" : "Linux: Arch", 
+	"deployment-os" : "Linux: Debian", 
+	"web-server" : "Apache", 
+	"databases" : ["None"]
+}
