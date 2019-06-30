@@ -6,7 +6,7 @@
 	"summary" : "The purpose of this web application is to provide an efficient method of practicing/memorizing the NATO phonetic alphabet",
 	"description" : "A Bash script converts the CSV question-answer data to a JSON file. Using AngularJS' http service, a JSON file is asynchronously loaded and it populates the help table at the bottom and is fed through a question randomizer. Using CSS media queries for responsiveness", 
 	"future-work" : [
-						""
+						"Improve aesthetics"
 				    ],
 	"live-link" : "http://projects.christianfarmer.org/software/informational-sites/nato-words/quiz/", 
 	"demonstration-link" : "Contact me", 
